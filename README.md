@@ -2,12 +2,10 @@
 
 ### IUT Montpellier-Sète – Département Informatique
 
-* **Cours:** [M2103](http://cache.media.enseignementsup-recherche.gouv.fr/file/25/09/7/PPN_INFORMATIQUE_256097.pdf)
+* **Cours:** [M2103](http://cache.media.enseignementsup-recherche.gouv.fr/file/25/09/7/PPN_INFORMATIQUE_256097.pdf) - support [ici](https://github.com/IUTInfoMontp-M2103/Ressources)
 * **Enseignants:** [Marin Bougeret](mailto:marin.bougeret@umontpellier.fr), [Victor Poupet](mailto:victor.poupet@umontpellier.fr), [Sébastien Gagné](mailto:sebastien.gagne@umontpellier.fr), [Petru Valicov](mailto:petru.valicov@umontpellier.fr), [Bruno Yun](mailto:bruno.yun@umontpellier.fr) 
-* **Besoin d'aide ?**
-    * Le support du cours est disponible [ici](https://github.com/IUTInfoMontp-M2103/Ressources)
-    * Le [forum Piazza](https://piazza.com/class/jpv7gf0lltk4kc) de ce cours pour poser vos questions
-    * [Email](mailto:petru.valicov@umontpellier.fr) pour une question d'ordre privée, ou pour convenir d'un rendez-vous physique.
+* Le [forum Piazza](https://piazza.com/class/jpv7gf0lltk4kc) de ce cours pour poser vos questions
+* [Email](mailto:petru.valicov@umontpellier.fr) pour une question d'ordre privée, ou pour convenir d'un rendez-vous physique.
 
 ## TP 2 : Prise en main de l'IDE et travail en mode TDD
 Pendant les TP nous vous conseillons d'utiliser un environnement de développement intégré (IDE en anglais). Les avantages sont multiples : le refactoring du code, l'auto-complétion, la suggestion des méthodes/attributs/classes, la documentation intégrée, une bonne intégration de Git et GitHub, des tests unitaires etc. Dans ce cours nous utiliserons
