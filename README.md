@@ -62,3 +62,7 @@ Le workflow du TDD décrit ci-dessus par le triptyque "RED, GREEN, REFACTOR".
 
 Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous sont 
 donnés pour vous faire découvrir cette méthode sans trop de douleur.
+
+Pour forker ce dépôt et commencer à travailler localement c'est ici :
+
+https://classroom.github.com/a/sOEtP2b1
