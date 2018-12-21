@@ -131,7 +131,6 @@ Faites très attention pour cet exercice de bien respecter le principe du TDD en
 Dans cet exercice, vous allez manipuler la classe [`String`](https://docs.oracle.com/javase/8/docs/api/?java/lang/String.html). Cette classe possède de nombreuses méthodes utilitaires pour manipuler facilement les chaines de caractères. Dans cette exercice, vous utiliserez principalement une boucle `for` et la méthode `charAt(i)` qui retourne le i-ème caractère d'une chaine.
 
 **Convertisseur de nombres romains** 
-
 Écrivez une classe Java appelée `RomanToNumeral`. Cette classe aura une méthode  `getNumeral()` qui prend un nombre romain en paramètre et retourne sa valeur en numérotation décimale (un type `int`). 
 
 N'oubliez pas de faire des "commits" au fur et à mesure !
@@ -141,6 +140,15 @@ N'oubliez pas de faire des "commits" au fur et à mesure !
 
 Est-ce que vos tests sont suffisant ? Que se passe-t-il lors de la conversion `romain` -> `décimal` -> `romain` ?
 
+**Additionneur romain**
+En utilisant les deux classes écrites précédemment, créez une classe `RomanAdditionner` qui contiendra une méthode `compute()`. Cette méthode prendra en paramètre une chaîne de caractères représentant une expression arithmétique romaine telle que :
+
+ - les opérandes sont écrits en numérotation romaine
+ - les opérations possibles sont `+` et `-`
+
+Voici un exemple d'expression arithmétique : MMMXL + XII - CIX.
+
+Le résultat correspondant devrait être : MMCMXLIII.
 
 
 Vous trouverez d'autres katas qui vous permettront de mieux apprendre la programmation en mode TDD :
