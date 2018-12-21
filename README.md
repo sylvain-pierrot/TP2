@@ -13,6 +13,10 @@ Pendant les TP nous vous conseillons d'utiliser un environnement de développeme
 Il devrait donc vous faciliter la vie au quotidien dans la réalisation de vos TP. Bien évidement, rien ne vous empêche 
 d'en utiliser un autre (Eclipse, NetBeans etc).
 
+D'abord, et comme pour tous les tps de POO qui vont suivre, vous allez forker ce dépôt pour pouvoir commencer à travailler localement :
+
+https://classroom.github.com/a/sOEtP2b1
+
 
 ### Découverte et prise en main de l'IDE
 
@@ -67,13 +71,30 @@ doit s’écrire avant la fonctionnalité voulue, il est donc censé échouer in
 4. __Réfactoriser__ (simplifier, améliorer, optimiser etc.) tous le code tout en gardant la fonctionnalité. Durant cette étape les tests écrits préalablement sont exécutés en permanence pour certifier la validité des changements.
 
 
-Le workflow du TDD décrit ci-dessus par le triptyque "RED, GREEN, REFACTOR".
+Ce workflow se décrit par le triptyque "RED, GREEN, REFACTOR" dans le schéma suivant :
 
 ![](ressources/test-driven-development.png)
 
-Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous sont 
-donnés pour vous faire découvrir cette méthode sans trop de douleur.
+Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous seront donnés pour vous faire découvrir cette méthode sans trop de douleur.
 
-Pour forker ce dépôt et commencer à travailler localement c'est ici :
 
-https://classroom.github.com/a/sOEtP2b1
+
+### Exercice 2 : Fizz Buzz !
+
+Le kata Fizz Buzz est un des kata les plus connus pour l'apprentissage du TDD.
+Une série 'FizzBuzz' de taille `n` est une suite d'entiers positifs où les multiples de 3 doivent être remplacés par 'Fizz' et les multiples de 5 doivent être remplacés par 'Buzz'. Voici la série FizzBuzz de taille 20 :
+
+1 ; 2 ; Fizz ; 4 ; Buzz ; Fizz ; 7 ; 8 ; Fizz ; Buzz ; 11 ; Fizz ; 13 ; 14 ; FizzBuzz ; 16 ; 17 ; Fizz ; 19 ; Buzz
+
+#### L'objectif de cet exercice est :
+- Implémentez une classe `FizzBuzzer` avec une fonction `getValues(int i)` qui vous permettra de générer toute la série 'FizzBuzz' jusqu'à la valeur passée en paramètre. 
+
+
+Vous activerez les tests les un après les autres et soumettre votre solution après 
+chaque itération du cycle principal du workflow.
+
+### Exercice 3 : 
+
+Vous trouverez d'autres katas qui vous permettront de mieux apprendre la programmation en mode TDD :
+
+http://codingdojo.org/kata/
