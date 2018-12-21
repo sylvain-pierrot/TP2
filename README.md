@@ -30,9 +30,20 @@ chez vous et dans les salles de TP.
 
 #### Lancement de l'IDE
 
-Allez dans le Menu 'Application' et ouvrir 'IntelliJ IDEA' dans la section programmation.
+Ouvrir 'IntelliJ IDEA' (dans la section 'Programmation'/'Application').
+Après le chargement, vous devriez tomber sur une première fenêtre vous proposant d'importer vos paramètres. Vous pouvez laisser sur 'Do not import settings' et valider :
 
-Après le chargement, vous devriez tomber sur une première fenêtre vous proposant d'importer vos paramètres.
+![](resources/complete_installation.png)
+
+À partir de là vous allez tomber sur la partie de personnalisation de votre installation pour qu'elle corresponde à vos besoins. Sur l'aspect esthétique, choisissez ce qui vous convient le mieux. En ce qui concerne les différents plugins à intégrer, à priori, les options installées par défaut sont suffisantes, donc vous choisirez l'installation par défaut.
+
+À la fin, vous allez saisir vos données de connexion pour terminer le paramétrage de votre IDE.
+
+**Import du projet dans l'IDE**
+Pour pouvoir maintenant travailler sur votre TP, il vous faut cloner votre dépôt GitHub et l'importer dans l'IDE.
+
+![](resources/ImportProjet.png)
+
 
 
 ### Workflow
