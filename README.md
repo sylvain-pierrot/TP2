@@ -37,7 +37,7 @@ chez vous et dans les salles de TP.
 Ouvrir 'IntelliJ IDEA' (dans la section 'Programmation'/'Application').
 Après le chargement, vous devriez tomber sur une première fenêtre vous proposant d'importer vos paramètres. Vous pouvez laisser sur 'Do not import settings' et valider :
 
-![](ressources/complete_installation.png)
+![](src/main/resources/complete_installation.png)
 
 À partir de là vous allez tomber sur la partie de personnalisation de votre installation pour qu'elle corresponde à vos besoins. Sur l'aspect esthétique, choisissez ce qui vous convient le mieux. En ce qui concerne les différents plugins à intégrer, à priori, les options installées par défaut sont suffisantes, donc vous choisirez l'installation par défaut.
 
@@ -46,7 +46,7 @@ Après le chargement, vous devriez tomber sur une première fenêtre vous propos
 **Import du projet dans l'IDE**
 Pour pouvoir maintenant travailler sur votre TP, il vous faut cloner votre dépôt GitHub et l'importer dans l'IDE.
 
-![](ressources/ImportProjet.png)
+![](src/main/resources/ImportProjet.png)
 
 
 
@@ -73,7 +73,7 @@ doit s’écrire avant la fonctionnalité voulue, il est donc censé échouer in
 
 Ce workflow se décrit par le triptyque "RED, GREEN, REFACTOR" dans le schéma suivant :
 
-![](ressources/test-driven-development.png)
+![](src/main/resources/test-driven-development.png)
 
 Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous seront donnés pour vous faire découvrir cette méthode sans trop de douleur. Vous allez les activer un par un en commentant l'annotation `@Ignore`.
 
