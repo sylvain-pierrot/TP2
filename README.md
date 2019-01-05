@@ -66,7 +66,7 @@ et un code fonctionnel associé.
 Ci-dessous le déroulement d’un cycle :
 1. Écrire un premier test automatique qui est censé définir une nouvelle fonctionnalité. Le test
 doit s’écrire avant la fonctionnalité voulue, il est donc censé échouer initialement (normal, car vous n'avez encore rien programmé).
-2. Écrire le code minimal suffisant pour passer le test.
+2. Écrire le code __minimal__ suffisant pour passer le test (principe _BabySteps_).
 3. Vérifier que le test passe.
 4. __Réfactoriser__ (simplifier, améliorer, optimiser etc.) tous le code tout en gardant la fonctionnalité. Durant cette étape les tests écrits préalablement sont exécutés en permanence pour certifier la validité des changements.
 
@@ -87,10 +87,11 @@ Une série 'FizzBuzz' de taille `n` est une suite d'entiers positifs où les mul
 1 ; 2 ; Fizz ; 4 ; Buzz ; Fizz ; 7 ; 8 ; Fizz ; Buzz ; 11 ; Fizz ; 13 ; 14 ; FizzBuzz ; 16 ; 17 ; Fizz ; 19 ; Buzz
 
 #### L'objectif de cet exercice est :
-- Implémentez une classe `FizzBuzzer` avec une fonction `getValues(int i)` qui vous permettra de générer toute la série 'FizzBuzz' jusqu'à la valeur passée en paramètre. 
+- Implémentez une classe `FizzBuzz` avec une fonction `getList(int i)` qui vous permettra de générer toute la série 'FizzBuzz' jusqu'à la valeur passée en paramètre. 
 
 
-Vous activerez les tests les un après les autres et soumettre (avec un commit) votre solution après chaque itération du cycle principal du workflow.
+Vous activerez les tests les un après les autres et soumettrez (avec un commit) votre solution après __chaque itération__ du cycle principal du workflow.
+Même si l'exercice paraît facile, prêtez une attention particulière à l'étape de réfactorisation. Vous vous servirez de votre IDE pour renommer les méthodes ou variables, pour l'autocomplétion etc.
 
 ### Exercice 4 : Calculette romaine
 
