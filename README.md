@@ -75,7 +75,7 @@ Ce workflow se décrit par le triptyque "RED, GREEN, REFACTOR" dans le schéma s
 
 ![](src/main/resources/test-driven-development.png)
 
-Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous seront donnés pour vous faire découvrir cette méthode sans trop de douleur. Vous allez les activer un par un en commentant l'annotation `@Ignore`.
+Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous seront donnés pour vous faire découvrir cette méthode sans trop de douleur. Vous allez les activer un par un en commentant l'annotation `@Disabled`.
 
 
 
