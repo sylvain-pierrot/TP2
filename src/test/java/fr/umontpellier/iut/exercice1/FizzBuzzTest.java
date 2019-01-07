@@ -5,7 +5,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 
-class FizzBuzzTest {
+public class FizzBuzzTest {
     private FizzBuzz fizzBuzz = new FizzBuzz();
 
     @Ignore
