@@ -1,12 +1,12 @@
 package fr.umontpellier.iut.exercice2;
 
 import org.junit.Ignore;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RomanToNumeralTest {
-    private RomanToNumeral romanToNumeral;
+public class RomanToNumeralTest {
+    private RomanToNumeral romanToNumeral = new RomanToNumeral();
 
     @Ignore
     @Test
@@ -21,7 +21,6 @@ class RomanToNumeralTest {
         int number = romanToNumeral.getNumeral("V");
         assertEquals(number,5);
     }
-
 
 
     @Ignore
