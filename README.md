@@ -129,19 +129,19 @@ https://fr.wikipedia.org/wiki/Numération\_romaine
 
 Faites très attention pour cet exercice de bien respecter le principe du TDD en ajoutant vraiment tout le temps la quantité minimale de code nécessaire à la validation des tests. Si vous suivez cette règle, il se résout très facilement alors qu'en l'abordant de manière générale, il comporte de nombreux pièges pouvant vous faire perdre un temps précieux.
 
-Dans cet exercice, vous allez manipuler la classe [`String`](https://docs.oracle.com/javase/8/docs/api/?java/lang/String.html). Cette classe possède de nombreuses méthodes utilitaires pour manipuler facilement les chaines de caractères. Dans cette exercice, vous utiliserez principalement une boucle `for` et la méthode `charAt(i)` qui retourne le i-ème caractère d'une chaine.
+Dans cet exercice, vous allez manipuler la classe [`String`](https://docs.oracle.com/javase/8/docs/api/?java/lang/String.html). Cette classe possède de nombreuses méthodes utilitaires pour manipuler facilement les chaines de caractères.
 
 **Convertisseur de nombres romains**
 
-Écrivez une classe Java appelée `RomanToNumeral`. Cette classe aura une méthode  `getNumeral()` qui prend un nombre romain en paramètre et retourne sa valeur en numérotation décimale (un type `int`). 
+Écrivez la classe Java `RomanToNumeral` donnée. Cette classe aura une méthode  `getNumeral()` qui prend un nombre romain en paramètre et retourne sa valeur en numérotation décimale (un type `int`). 
 
 N'oubliez pas de faire des "commits" au fur et à mesure !
 
 **Convertisseur de nombres décimaux** 
 
-Écrivez une classe `NumeralToRoman` qui contiendra une méthode `getRoman()` qui prend un nombre entier en paramètre et retourne sa valeur en numérotation romaine (de type `String` donc).
+Écrivez la classe `NumeralToRoman` qui contiendra une méthode `getRoman()`, qui prend un nombre entier en paramètre et retourne sa valeur en numérotation romaine (de type `String` donc).
 
-Est-ce que vos tests sont suffisant ? Que se passe-t-il lors de la conversion `romain` -> `décimal` -> `romain` ?
+Est-ce que vos tests sont suffisants ? Que se passe-t-il lors de la conversion `romain` -> `décimal` -> `romain` ?
 
 **Additionneur romain**
 
