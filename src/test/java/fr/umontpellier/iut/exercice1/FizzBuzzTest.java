@@ -5,7 +5,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 
-public class FizzBuzzTest {
+class FizzBuzzTest {
     private FizzBuzz fizzBuzz = new FizzBuzz();
 
     @Ignore
@@ -47,21 +47,21 @@ public class FizzBuzzTest {
     @Test
     public void test_six_should_print_buzz() {
         String result = fizzBuzz.getValue(6);
-        Assert.assertEquals(result,"Buzz");
+        Assert.assertEquals(result,"Fizz");
     }
 
     @Ignore
     @Test
     public void test_nine_should_print_buzz() {
         String result = fizzBuzz.getValue(9);
-        Assert.assertEquals(result,"Buzz");
+        Assert.assertEquals(result,"Fizz");
     }
 
     @Ignore
     @Test
     public void test_ten_should_print_fizz() {
         String result = fizzBuzz.getValue(10);
-        Assert.assertEquals(result,"Fizz");
+        Assert.assertEquals(result,"Buzz");
     }
 
     @Ignore
