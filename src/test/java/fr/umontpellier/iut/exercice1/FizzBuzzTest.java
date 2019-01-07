@@ -5,7 +5,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 
-class FizzBuzzTest {
+public class FizzBuzzTest {
     private FizzBuzz fizzBuzz = new FizzBuzz();
 
     @Ignore
@@ -82,7 +82,7 @@ class FizzBuzzTest {
     @Test
     public void test_getList_Should_Return_a_sequence_of_5_FizzBuzz_elements_when_5() {
         String[] result = fizzBuzz.computeList(5);
-        Assert.assertEquals(result[0],"Fizz");
+        Assert.assertEquals(result[0],"1");
         Assert.assertEquals(result[1],"2");
         Assert.assertEquals(result[2],"Fizz");
         Assert.assertEquals(result[3],"4");
