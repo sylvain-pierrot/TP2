@@ -11,7 +11,7 @@
 Pendant les TP nous vous conseillons d'utiliser un environnement de développement intégré (IDE en anglais). Les avantages sont multiples : le refactoring du code, l'auto-complétion, la suggestion des méthodes/attributs/classes, la documentation intégrée, le debuggage, une bonne intégration de Git et GitHub, des tests unitaires etc. Dans ce cours nous utiliserons
 **[IntelliJ IDEA](https://www.jetbrains.com/idea/)** de chez **[JetBrains](https://www.jetbrains.com)**. 
 Il devrait donc vous faciliter la vie au quotidien dans la réalisation de vos TP. Bien évidement, rien ne vous empêche 
-d'en utiliser un autre (Eclipse, NetBeans etc).
+d'en utiliser un autre ([Eclipse](https://www.eclipse.org/), [NetBeans](https://netbeans.org/) etc.).
 
 D'abord, et comme pour tous les tps de POO qui vont suivre, vous allez forker ce dépôt pour pouvoir commencer à travailler localement :
 
@@ -32,7 +32,7 @@ les conditions d'utilisation et choisir un nom d'utilisateur et un mot de passe.
 informations dans un coin identifié de votre cerveau car c'est grâce à elle que vous pourrez importer votre licence 
 chez vous et dans les salles de TP.
 
-#### Lancement de l'IDE
+**Lancement de l'IDE**
 
 Ouvrir 'IntelliJ IDEA' (dans la section 'Programmation'/'Application').
 Après le chargement, vous devriez tomber sur une première fenêtre vous proposant d'importer vos paramètres. Vous pouvez laisser sur 'Do not import settings' et valider :
@@ -44,22 +44,24 @@ Après le chargement, vous devriez tomber sur une première fenêtre vous propos
 À la fin, vous allez saisir vos données de connexion pour terminer le paramétrage de votre IDE.
 
 **Import du projet dans l'IDE**
-Pour pouvoir maintenant travailler sur votre TP, il vous faut cloner votre dépôt GitHub et l'importer dans l'IDE.
+
+Pour pouvoir maintenant travailler sur votre TP, il vous faut cloner votre dépôt Git :
 
 ![](src/main/resources/ImportProjet.png)
 
+Le repository sera celui correspondant à votre TP sur GitHub :
+
+![](src/main/resources/CloneGitHub.png)
 
 
 ### Workflow
 
 Maintenant que vous savez utiliser Git en ligne de commande, que vous avez forké, importé et ouvert le TP dans votre IDE, 
-vous êtes en capacité de travailler sur vos exercices. Pour vous faire découvrir le Test Driven Development (TDD), nous 
-allons vous proposer de suivre un workflow particulier pour résoudre vos exercices progressivement et en consolidant 
-progressivement un filet de sécurité qui vérifiera que votre code continue à bien faire ce qu'il doit.
+vous êtes en capacité de travailler sur vos exercices. Pour cette séance nous vous proposons de suivre un workflow particulier pour résoudre vos exercices progressivement et en consolidant 
+progressivement un filet de sécurité qui vérifiera que votre code continue à bien faire ce qu'il doit. Il s'agit d'un premier apperçu de ce qu'on appelle le Développement Piloté par les Tests ([Test-Driven Development](https://fr.wikipedia.org/wiki/Test_driven_development) ou TDD pour faire court). 
 
-Le TDD (Test-driven development) est une méthode de développement de logiciels qui consiste
-à travailler sur des cycles de développement très courts. La conception apparaît au fur et à mesure du développement en encourageant une meilleure compréhension du problème en commençant à écrire les tests avant le code 
-applicatif. Pour le développeur, les tests vont constituer une spécification technique exécutable et vérifiable à tout 
+Le TDD est une méthode de développement de logiciels qui consiste
+à travailler sur des cycles de développement très courts. La conception apparaît au fur et à mesure du développement en commençant à écrire les tests avant le code applicatif. Ceci favorise une meilleure compréhension du problème. Pour le développeur, les tests vont constituer une spécification technique exécutable et vérifiable à tout 
 moment. Ainsi en rajoutant des tests, le développeur converge progressivement à la fois vers une spécification plus fine 
 et un code fonctionnel associé.
 
@@ -81,8 +83,8 @@ Le workflow que vous allez devoir suivre va reprendre la même structure, mis à
 
 ### Exercice 2 : Fizz Buzz !
 
-Le kata Fizz Buzz est un des kata les plus connus pour l'apprentissage du TDD.
-Une série 'FizzBuzz' de taille `n` est une suite d'entiers positifs où les multiples de 3 doivent être remplacés par 'Fizz' et les multiples de 5 doivent être remplacés par 'Buzz'. Voici la série FizzBuzz de taille 20 :
+Le kata Fizz Buzz est un des katas les plus connus pour l'apprentissage du TDD.
+Une série 'FizzBuzz' de taille `n` est une suite d'entiers positifs où lorsqu'un multiple de 3 est rencontré on imprime "Fizz" et lorsqu'un multiple de 5 est renctontré, on imprime "Buzz". Voici la série FizzBuzz de taille 20 :
 
 1 ; 2 ; Fizz ; 4 ; Buzz ; Fizz ; 7 ; 8 ; Fizz ; Buzz ; 11 ; Fizz ; 13 ; 14 ; FizzBuzz ; 16 ; 17 ; Fizz ; 19 ; Buzz
 
@@ -125,7 +127,7 @@ Les nombres romains sont majoritairement représentés selon les principes suiva
 
 D'autres variantes de règles concernant la soustraction existent, vous pouvez choisir celles qui vous paraissent les plus pertinentes. Pour plus d'informations sur la numérotation romaine :
 
-https://fr.wikipedia.org/wiki/Numération\_romaine
+https://fr.wikipedia.org/wiki/Numération_romaine
 
 Faites très attention pour cet exercice de bien respecter le principe du TDD en ajoutant vraiment tout le temps la quantité minimale de code nécessaire à la validation des tests. Si vous suivez cette règle, il se résout très facilement alors qu'en l'abordant de manière générale, il comporte de nombreux pièges pouvant vous faire perdre un temps précieux.
 
