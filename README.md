@@ -88,14 +88,15 @@ Une série 'FizzBuzz' de taille `n` est une suite d'entiers positifs où lorsqu'
 
 1 ; 2 ; Fizz ; 4 ; Buzz ; Fizz ; 7 ; 8 ; Fizz ; Buzz ; 11 ; Fizz ; 13 ; 14 ; FizzBuzz ; 16 ; 17 ; Fizz ; 19 ; Buzz
 
-#### L'objectif de cet exercice est :
-- Implémentez la classe `FizzBuzz` qui vous est donnée dans le paquetage `fr.umontpellier.iut.exercice1`. Cette classe contient deux fonctions qu'il faudra compléter :
-    - `getValue(int i)` qui retournera une chaîne de caractères correspondant au nombre `i`dans la série FizzBuzz
-    - `computeList(int n)` qui retournera toute la série 'FizzBuzz' jusqu'à la valeur passée en paramètre 
+Implémentez la classe `FizzBuzz` qui vous est donnée dans le paquetage `fr.umontpellier.iut.exercice1`. Cette classe contient deux fonctions qu'il faudra compléter :
+  - `getValue(int i)` qui retournera une chaîne de caractères correspondant au nombre `i`dans la série FizzBuzz
+  - `computeList(int n)` qui retournera toute la série 'FizzBuzz' jusqu'à la valeur passée en paramètre 
 
 La classe contenant les tests est situéé dans le répertoire correspondant au paquetage `fr.umontpellier.iut.exercice1` dans l'arborescence `src/test` de votre projet.
 Vous activerez les tests les un après les autres et soumettrez (avec un commit) votre solution après __chaque itération__ du cycle principal du workflow.
 Même si l'exercice paraît facile, prêtez une attention particulière à l'étape de réfactorisation. Vous vous servirez de votre IDE pour renommer les méthodes ou variables, pour l'autocomplétion etc.
+
+### Exercice 3 : TO DO
 
 ### Exercice 4 : Calculette romaine
 
