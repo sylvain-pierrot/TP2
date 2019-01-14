@@ -102,9 +102,11 @@ D'après le Théorème fondamental de l'arithmétique, tout entier strictement p
 Dans cet exercice il vous est demandé d'implémenter la méthode qui, pour un entier strictement positif donné, renvoie la liste de ces facteurs premiers en ordre croissant.
 Par exemple pour l'entier 5, la liste retournée devrait être [5], alors que pour l'entier 12, la liste retournée devrait être [2,2,3].
 
-La méthode en question est `computeFactors(int)`, située dans la classe `PrimeFactors` (paquetage `fr.umontpellier.iut.exercice2`) qui renvoie la liste de facteurs premiers pour l'entier passé en paramètre.
+La méthode que vous devez implémenter est `computeFactors(int)`. Elle est située dans la classe `PrimeFactors` (paquetage `fr.umontpellier.iut.exercice2`) qui renvoie la liste de facteurs premiers pour l'entier passé en paramètre.
 
-Vous activerez les tests les un après les autres et soumettrez (avec un commit) votre solution après __chaque itération__ du cycle principal du workflow.
+Comme pour l'exercice précédent, vous activerez les tests les un après les autres.  N'oubliez pas de __refactoriser__ (i.e. simplifier/nettoyer/factoriser) le code à chaque étape. Vous soumettrez avec Git votre solution après chaque itération du cycle principal du workflow.
+
+À la fin de l'exercice, pour vous convaincre de la validité de votre code, vous ajouterez un test supplémentaire pour un nouveau nombre que vous aurez choisi aléatoirement. Est-ce que votre programme passe ce nouveau test ?
 
 
 
