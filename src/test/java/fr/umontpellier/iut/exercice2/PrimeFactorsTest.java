@@ -22,8 +22,8 @@ class PrimeFactorsTest {
 
     @Disabled
     @Test
-    public void one_should_give_1() {
-        assertEquals(primeFactors.computeFactors(1), list(1));
+    public void one_should_give_empty() {
+        assertEquals(primeFactors.computeFactors(1), list());
     }
 
 
@@ -43,7 +43,7 @@ class PrimeFactorsTest {
 
     @Disabled
     @Test
-    public void four_should_give_2() {
+    public void four_should_give_2_and_2() {
         assertEquals(primeFactors.computeFactors(4), list(2,2));
     }
 
@@ -61,11 +61,10 @@ class PrimeFactorsTest {
         assertEquals(primeFactors.computeFactors(6), list(2,3));
     }
 
-
     @Disabled
     @Test
     public void seven_should_give_7() {
-        assertEquals(primeFactors.computeFactors(7), list(1));
+        assertEquals(primeFactors.computeFactors(7), list(7));
     }
 
 
@@ -79,9 +78,8 @@ class PrimeFactorsTest {
     @Disabled
     @Test
     public void nine_should_give_3() {
-        assertEquals(primeFactors.computeFactors(9), list(3,3,3));
+        assertEquals(primeFactors.computeFactors(9), list(3,3));
     }
-
 
     @Disabled
     @Test
@@ -89,12 +87,10 @@ class PrimeFactorsTest {
         assertEquals(primeFactors.computeFactors(10), list(2,5));
     }
 
-
     @Disabled
     @Test
-    public void four_thousand_one_hundred_fifty_eight_should_give_2_3_7_11() {
-        assertEquals(primeFactors.computeFactors(4158), list(2,3,7,11));
+    public void four_thousand_one_hundred_fifty_eight_should_give_2_3_3_3_7_11() {
+        assertEquals(primeFactors.computeFactors(4158), list(2,3,3,3,7,11));
     }
-
 
 }
