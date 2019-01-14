@@ -1,4 +1,4 @@
-package fr.umontpellier.iut.exercice2;
+package fr.umontpellier.iut.exercice3;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -8,25 +8,21 @@ import org.junit.jupiter.api.Test;
 public class RomanToNumeralTest {
     private RomanToNumeral romanToNumeral = new RomanToNumeral();
 
-    @Disabled
     @Test
     public void One() {
         assertEquals(romanToNumeral.getNumeral("I"), 1);
     }
 
-    @Disabled
     @Test
     public void Two() {
         assertEquals(romanToNumeral.getNumeral("II"), 2);
     }
 
-    @Disabled
     @Test
     public void Three() {
         assertEquals(romanToNumeral.getNumeral("III"), 3);
     }
 
-    @Disabled
     @Test
     public void Four() {
         assertEquals(romanToNumeral.getNumeral("IV"), 4);

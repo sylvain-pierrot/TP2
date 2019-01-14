@@ -81,7 +81,7 @@ Le workflow que vous allez devoir suivre va reprendre la même structure, mis à
 
 
 
-### Exercice 2 : Fizz Buzz !
+### Exercice 1 : Fizz Buzz !
 
 Le kata Fizz Buzz est un des katas les plus connus pour l'apprentissage du TDD.
 Une série 'FizzBuzz' de taille `n` est une suite d'entiers positifs où lorsqu'un multiple de 3 est rencontré on imprime "Fizz" et lorsqu'un multiple de 5 est renctontré, on imprime "Buzz". Voici la série FizzBuzz de taille 20 :
@@ -96,9 +96,9 @@ La classe contenant les tests est situéé dans le répertoire correspondant au 
 Vous activerez les tests les un après les autres et soumettrez (avec un commit) votre solution après __chaque itération__ du cycle principal du workflow.
 Même si l'exercice paraît facile, prêtez une attention particulière à l'étape de réfactorisation. Vous vous servirez de votre IDE pour renommer les méthodes ou variables, pour l'autocomplétion etc.
 
-### Exercice 3 : TO DO
+### Exercice 2 : Facteurs Premiers
 
-### Exercice 4 : Calculette romaine
+### Exercice 3 : Calculette romaine
 
 Vous êtes chargé de réaliser une calculette simplifiée qui effectue des additions et des soustractions des nombres écrits en numérotation romaine. Dans cette numérotation on utilise des caractères parmi sept lettres de l'alphabet latin : `I`, `X`, `L`, `C`, `D` et `M`. La signification en numérotation décimale classique est donnée ci-dessous :
 
@@ -115,7 +115,7 @@ Les nombres romains sont majoritairement représentés selon les principes suiva
 - Tout symbole qui suit un symbole de valeur supérieure ou égale s’ajoute à celui-ci (exemple : 6 s'écrit `VI`) ;
 - Tout symbole qui précède un symbole de valeur supérieure se soustrait à ce dernier :
 
-  * `I` doit être retranché à `V` ou à `X` quand `I` est devant V ou X (ex. : 4 s'écrit `IV`),
+  * `I` doit être retranché à `V` ou à `X` quand `I` est devant `V` ou `X` (ex. : 4 s'écrit `IV`),
 
   * `X` doit être retranché à `L` ou à `C` quand `X` est devant `L` ou `C` (ex. : 40 s'écrit `XL`),
 
@@ -156,9 +156,9 @@ En utilisant les deux classes écrites précédemment, créez une classe `RomanA
  - les opérandes sont écrits en numérotation romaine
  - les opérations possibles sont `+` et `-`
 
-Voici un exemple d'expression arithmétique : MMMXL + XII - CIX.
+Voici un exemple d'expression arithmétique : `MMMXL` + `XII` - `CIX`.
 
-Le résultat correspondant devrait être : MMCMXLIII.
+Le résultat correspondant devrait être : `MMCMXLIII`.
 
 ### Et ce n'est pas fini !
 
