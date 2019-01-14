@@ -100,7 +100,7 @@ Même si l'exercice paraît facile, prêtez une attention particulière à l'ét
 
 ### Exercice 4 : Calculette romaine
 
-Vous êtes chargé de réaliser une calculette simplifiée qui effectue des additions et des soustractions des nombres écrits en numérotation romaine. Dans cette numérotation on utilise des caractères parmi sept lettres de l'alphabet latin : I, X, L, C, D et M. La signification en numérotation décimale classique est donnée ci-dessous :
+Vous êtes chargé de réaliser une calculette simplifiée qui effectue des additions et des soustractions des nombres écrits en numérotation romaine. Dans cette numérotation on utilise des caractères parmi sept lettres de l'alphabet latin : `I`, `X`, `L`, `C`, `D` et `M`. La signification en numérotation décimale classique est donnée ci-dessous :
 
 
 | I | V | X  | L  |  C  |  D  |  M   |
@@ -108,24 +108,24 @@ Vous êtes chargé de réaliser une calculette simplifiée qui effectue des addi
 | 1 | 5 | 10 | 50 | 100 | 500 | 1000 |
 
 
-Un nombre romain se lit de gauche à droite en faisant des additions et des soustractions des valeurs des chiffres. Par exemple le nombre romain MLXIII correspond à 1063 dans la numérotation décimale car il se décompose comme M+L+X+I+I+I = 1000+50+10+1+1+1. Alors que le nombre XXXIV vaut 34 car il se décompose comme X+X+X+IV=10+10+10+4. Une meilleure façon de voir ce dernier exemple c'est d'utiliser la soustraction X+X+X-I+V=10+10+10-1+5.
+Un nombre romain se lit de gauche à droite en faisant des additions et des soustractions des valeurs des chiffres. Par exemple le nombre romain `MLXIII` correspond à 1063 dans la numérotation décimale car il se décompose comme `M`+`L`+`X`+`I`+`I`+`I` = 1000+50+10+1+1+1. Alors que le nombre `XXXIV` vaut 34 car il se décompose comme `X`+`X`+`X`+`IV`=10+10+10+4. Une meilleure façon de voir ce dernier exemple c'est d'utiliser la soustraction `X`+`X`+`X`-`I`+`V`=10+10+10-1+5.
 
 Les nombres romains sont majoritairement représentés selon les principes suivants :
-- Un même symbole n'est pas employé quatre fois de suite (sauf M) ;
-- Tout symbole qui suit un symbole de valeur supérieure ou égale s’ajoute à celui-ci (exemple : 6 s'écrit VI) ;
+- Un même symbole n'est pas employé quatre fois de suite (sauf `M`) ;
+- Tout symbole qui suit un symbole de valeur supérieure ou égale s’ajoute à celui-ci (exemple : 6 s'écrit `VI`) ;
 - Tout symbole qui précède un symbole de valeur supérieure se soustrait à ce dernier :
 
-  * I doit être retranché à V ou à X quand I est devant V ou X}} (ex. : 4 s'écrit IV),
+  * `I` doit être retranché à `V` ou à `X` quand `I` est devant V ou X (ex. : 4 s'écrit `IV`),
 
-  * X doit être retranché à L ou à C quand X est devant L ou C (ex. : 40 s'écrit XL),
+  * `X` doit être retranché à `L` ou à `C` quand `X` est devant `L` ou `C` (ex. : 40 s'écrit `XL`),
 
-  * C doit être retranché à D ou à M quand C est devant D ou M (ex. : 900 s'écrit CM),
+  * `C` doit être retranché à `D` ou à `M` quand `C` est devant `D` ou `M` (ex. : 900 s'écrit `CM`),
 
-  * Par contre, ôter I de L ou de C n'est pas pratiqué (49 s'écrit XLIX et non IL ; 99 s'écrit XCIX et pas IC) ;
+  * Par contre, ôter `I` de `L` ou de `C` n'est pas pratiqué (49 s'écrit `XLIX` et non `IL` ; 99 s'écrit `XCIX` et pas `IC`) ;
 
-- Les symboles sont groupés par ordre décroissant, sauf pour les valeurs à retrancher selon la règle précédente (ex. : 1030 s'écrit MXXX et non XXXM qui est une des façons de représenter 970).
-- CM, CD, XC, XL, IX, IV sont valides
-- XM, IM, XD, ID, IC, IL sont non-valides
+- Les symboles sont groupés par ordre décroissant, sauf pour les valeurs à retrancher selon la règle précédente (ex. : 1030 s'écrit `MXXX` et non `XXXM` qui est une des façons de représenter 970).
+- `CM`, `CD`, `XC`, `XL`, `IX`, `IV` sont valides
+- `XM`, `IM`, `XD`, `ID`, `IC`, `IL` sont non-valides
 
 
 
