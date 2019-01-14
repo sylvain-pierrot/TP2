@@ -113,14 +113,15 @@ Un nombre romain se lit de gauche à droite en faisant des additions et des sous
 Les nombres romains sont majoritairement représentés selon les principes suivants :
 - Un même symbole n'est pas employé quatre fois de suite (sauf M) ;
 - Tout symbole qui suit un symbole de valeur supérieure ou égale s’ajoute à celui-ci (exemple : 6 s'écrit VI) ;
-- Tout symbole qui précède un symbole de valeur supérieure se soustrait à ce dernier ;
-  * I doit être retranché à V ou à X quand I est devant V ou X}} (ex. : 4 s'écrit IV),
+- Tout symbole qui précède un symbole de valeur supérieure se soustrait à ce dernier :
 
-  * X doit être retranché à L ou à C quand X est devant L ou C (ex. : 40 s'écrit XL),
+  * I doit être retranché à V ou à X quand I est devant V ou X}} (ex. : 4 s'écrit IV),
 
-  * C doit être retranché à D ou à M quand C est devant D ou M (ex. : 900 s'écrit CM),
+  * X doit être retranché à L ou à C quand X est devant L ou C (ex. : 40 s'écrit XL),
 
-  * Par contre, ôter I de L ou de C n'est pas pratiqué (49 s'écrit XLIX et non IL ; 99 s'écrit XCIX et pas IC) ;
+  * C doit être retranché à D ou à M quand C est devant D ou M (ex. : 900 s'écrit CM),
+
+  * Par contre, ôter I de L ou de C n'est pas pratiqué (49 s'écrit XLIX et non IL ; 99 s'écrit XCIX et pas IC) ;
 
 - Les symboles sont groupés par ordre décroissant, sauf pour les valeurs à retrancher selon la règle précédente (ex. : 1030 s'écrit MXXX et non XXXM qui est une des façons de représenter 970).
 - CM, CD, XC, XL, IX, IV sont valides
