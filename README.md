@@ -53,6 +53,15 @@ Le repository sera celui correspondant à votre TP sur GitHub :
 
 ![](src/main/resources/CloneGitHub.png)
 
+Lorsque vous ouvrez votre projet Java, la fenêtre d'affichage de votre IDE devrait rassembler à quelque chose comme ceci :
+
+![](src/main/resources/FenetreIDE.png)
+
+Prenez quelques minutes pour observer l'interface utilisateur. Les éléments principaux :
+* à gauche : l'arborescence de votre projet Java
+* centre-droite : la fenêtre d'édition ou vous allez taper vos programme
+* en bas : le terminal où seront affichés les messages concernant l'exécution de vos programmes
+
 
 ### Workflow
 
@@ -79,14 +88,15 @@ Ce workflow se décrit par le triptyque "RED, GREEN, REFACTOR" dans le schéma s
 
 Le workflow que vous allez devoir suivre va reprendre la même structure, mis à part qu'au début, les tests vous seront donnés pour vous faire découvrir cette méthode sans trop de douleur.
 
-##### Et au fait les tests, c'est quoi ?
+#### Et au fait les tests, c'est quoi ?
 
-Un **test unitaire** est une méthode écrite par le programmeur afin de vérifier qu'une fonctionnalité _précise_ et _élémentaire_ fonctionne correctement. Le terme _unitaire_ insiste sur le côté "élémentaire" de la fonctionnalité à tester.
+Un **test unitaire** est une méthode écrite par le programmeur afin de vérifier qu'une fonctionnalité _précise_ et _élémentaire_ fonctionne correctement.
+Le terme _unitaire_ insiste sur le côté "élémentaire" de la fonctionnalité (unité) à tester.
 
 L'outil le plus répandu pour gérer les tests unitaires en Java est le framework [JUnit](https://junit.org/junit5/).
 Les tests sont écrits dans une classe Java comme vous avez l'habitude.
-La différence majeure entre le fonctions "normales" et les fonctions de test est le fait que les méthodes de tests
-doivent être annotées `@Test`. Exemple :
+La différence entre le fonctions "normales" et les fonctions de test est l'annotation `@Test`.
+Celle-ci doit préceder chaque test unitaire. Exemple :
 ```java
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
@@ -105,29 +115,34 @@ Le résultat de l’exécution s'affiche en bas de la fenêtre de l'IDE :
  * les tests ayant **réussi** sont affiché en **vert**
  * les test ayant **échoué** sont en **rouge**
 
+Votre IDE vous affiche également la cause de l'échec en vous indiquant le résultat attendu de la fonctionnalitée testée
+et le résultat effectif.
 
 #### Organisation du projet Java - convention Maven
 Pour bien séparer le code de ses tests, nous allons utiliser la convention [Maven](https://fr.wikipedia.org/wiki/Apache_Maven)
 dans l'ensemble des TPs de POO.
 Ainsi le code est organisé de la façon suivante :
+
+![](src/main/resources/ArborescenceMaven.png)
 * l'intégralité des sources du projet se trouve dans le répertoire `src/`
 * le code source et fichiers source principaux se trouvent dans `src/main`
 * tous les fichiers de tests sont dans dans `src/test`
 
-![](src/main/resources/ArborescenceMaven.png)
-
+![](src/main/resources/ArborescenceMavenDetail.png)
 * le code source Java (ou code applicatif)  se trouve dans `src/main/java`
 * tous les fichiers de tests sont dans dans `src/test`
 
-![](src/main/resources/ArborescenceMavenDetail.png)
 
 
 Maven est un system de _build_ et administration de projets Java. Pour faire une analogie vous pouvez le comparer
 à l'outil bien connu [make](https://fr.wikipedia.org/wiki/Make) avec lequel vous serez bercés tout au long de vos études
-en informatique. Pour l'instant nous ne attarderons plus sur les spécifités de Maven.
 
 Comme indiqué précédemment, dans ce TP les tests unitaires vous seront données dans le repertoire de test correspondant.
 Vous allez les activer un par un en commentant l'annotation `@Disabled`.
+
+La règle principale à retenir : avant de faire un commit tous les tests qui ne sont pas annotés avec `@Disabled` doivent
+passer (pas de messages en rouge dans la console de l'IDE).
+
 
 ### Exercice 1 : Fizz Buzz !
 
