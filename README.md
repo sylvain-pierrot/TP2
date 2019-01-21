@@ -240,3 +240,34 @@ Le résultat correspondant devrait être : `MMCMXLIII`.
 Vous trouverez d'autres katas qui vous permettront de mieux apprendre la programmation en mode TDD :
 
 http://codingdojo.org/kata/
+
+
+### Si l'IDE n'est pas votre tasse de thé...
+
+Naturellement vous pouvez faire le tout en ligne de commande.
+Supposons que vous êtes sur Linux (la démarche étant quasiment identique sur Windows ou MacOS) et que la racine de votre projet est le répertoire `~/POO/TP2`.
+Positionnez-vous dans ce répertoire :
+```
+~/RepertoireCourant$ cd ~/POO/TP2
+~/POO/TP2$ ls
+~/POO/TP2$ pom.xml  README.md  src  target  tp2.iml
+```
+
+Pour compiler le code source de l'exercice 1 à partir de la racine de votre projet :
+
+```
+~/POO/TP2$  javac -d target/ src/main/java/fr/umontpellier/iut/exercice1/*.java
+```
+
+L'option `-d target` permet d'indiquer que la destination des fichiers compilés est le répertoire `target/`
+Alternativement, avec l'option `-sourcepath`, il est possible d'indiquer le chemin où le compilateur va chercher
+l'ensemble du code source à compiler :
+```
+~/POO/TP2$  javac -sourcepath src/ -d target src/main/java/fr/umontpellier/iut/exercice1/*.java
+```
+
+Pour exécuter le programme compilé :
+```
+~/POO/TP2$  cd target/
+~/POO/TP2/target$  java fr.umontpellier.iut.exercice1.App
+```
