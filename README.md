@@ -129,19 +129,22 @@ Ainsi le code est organisé de la façon suivante :
 * tous les fichiers de tests sont dans dans `src/test`
 
 ![](src/main/resources/ArborescenceMavenDetail.png)
-* le code source Java (ou code applicatif)  se trouve dans `src/main/java`
-* tous les fichiers de tests sont dans dans `src/test`
+* le code source (ou code applicatif) se trouve dans `src/main/java`
+* le code source de test se trouve dans `src/test`
 
 
 
 Maven est un system de _build_ et administration de projets Java. Pour faire une analogie vous pouvez le comparer
-à l'outil bien connu [make](https://fr.wikipedia.org/wiki/Make) avec lequel vous serez bercés tout au long de vos études
+à l'outil bien connu [make](https://fr.wikipedia.org/wiki/Make) avec lequel vous serez bercés tout au long de vos études.
+Utiliser Maven permet de gérer facilement toutes les dépendances du projet (comme les librairies de tests unitaire par exemple).
+Il est également utile pour créer le fichier `.jar` du projet : une archive contenant l'ensemble de classes Java et de ressources
+ d'un projet informatique (comme `.AppImage` sous Linux ou `.exe` sous Windows).   
 
 Comme indiqué précédemment, dans ce TP les tests unitaires vous seront données dans le repertoire de test correspondant.
 Vous allez les activer un par un en commentant l'annotation `@Disabled`.
 
-La règle principale à retenir : avant de faire un commit tous les tests qui ne sont pas annotés avec `@Disabled` doivent
-passer (pas de messages en rouge dans la console de l'IDE).
+__La règle principale à retenir__ : avant de faire un commit tous les tests qui ne sont pas annotés avec `@Disabled` __doivent
+passer__ (pas de messages en rouge dans la console de l'IDE).
 
 
 ### Exercice 1 : Fizz Buzz !
