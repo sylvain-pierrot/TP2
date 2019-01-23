@@ -196,7 +196,7 @@ Vous êtes chargé de réaliser une calculette simplifiée qui effectue des addi
 
 Un nombre romain se lit de gauche à droite en faisant des additions et des soustractions des valeurs des chiffres. Par exemple le nombre romain `MLXIII` correspond à 1063 dans la numérotation décimale car il se décompose comme `M`+`L`+`X`+`I`+`I`+`I` = 1000+50+10+1+1+1. Alors que le nombre `XXXIV` vaut 34 car il se décompose comme `X`+`X`+`X`+`IV`=10+10+10+4. Une meilleure façon de voir ce dernier exemple c'est d'utiliser la soustraction `X`+`X`+`X`-`I`+`V`=10+10+10-1+5.
 
-Les nombres romains sont majoritairement représentés selon les principes suivants :
+On va se fixer une représentation unique des nombres romains avecles principes suivants :
 - Un même symbole n'est pas employé quatre fois de suite (sauf `M`) ;
 - Tout symbole qui suit un symbole de valeur supérieure ou égale s’ajoute à celui-ci (exemple : 6 s'écrit `VI`) ;
 - Tout symbole qui précède un symbole de valeur supérieure se soustrait à ce dernier :
@@ -211,8 +211,9 @@ Les nombres romains sont majoritairement représentés selon les principes suiva
 
 - Les symboles sont groupés par ordre décroissant, sauf pour les valeurs à retrancher selon la règle précédente (ex. : 1030 s'écrit `MXXX` et non `XXXM` qui est une des façons de représenter 970).
 - `CM`, `CD`, `XC`, `XL`, `IX`, `IV` sont valides
-- `XM`, `IM`, `XD`, `ID`, `IC`, `IL` sont non-valides
-
+- `V*` (avec *>V), `L*` (avec *>L), `D*` (avec *>D) sont non-valides. Par exemple, 5=V et non VX, 45 = XLV et non VL.
+- `AB` avec A<B est autorisé seulement pour B = suiv(A) ou B = suiv(suiv(A)) (suiv(A) étant le symbole après A dans le tableau). Par exmeple, 49 = XLIX et pas IL
+to finish
 
 
 D'autres variantes de règles concernant la soustraction existent, vous pouvez choisir celles qui vous paraissent les plus pertinentes. Pour plus d'informations sur la numérotation romaine :
