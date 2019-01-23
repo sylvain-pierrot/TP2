@@ -19,6 +19,7 @@ D'abord, et comme pour tous les tps de POO qui vont suivre, vous allez forker ce
 
 https://classroom.github.com/a/sOEtP2b1
 
+Contrairement au TP1, ne clonez pas tout de suite vous même ce fork, l'IDE s'en chargera tout seul (cf ci-dessous).
 
 ### Découverte et prise en main de l'IDE
 
@@ -162,7 +163,12 @@ Implémentez la classe `FizzBuzz` qui vous est donnée dans le paquetage `fr.umo
 
 La classe contenant les tests est situéé dans le répertoire correspondant au paquetage `fr.umontpellier.iut.exercice1` dans l'arborescence `src/test` de votre projet.
 Vous activerez les tests les un après les autres et soumettrez (avec un commit) votre solution après __chaque itération__ du cycle principal du workflow.
+
+La classe principale (contenant le `main`) est la classe `App`, et se trouve dans le paquetage `fr.umontpellier.iut.exercice1`. Implémentez là (supprimez la ligne qui lève une exception) pour simuler le bon fonctionnement de votre programme.
+
 Même si l'exercice paraît facile, prêtez une attention particulière à l'étape de réfactorisation. Vous vous servirez de votre IDE pour renommer les méthodes ou variables, pour l'autocomplétion etc.
+
+
 
 ### Exercice 2 : Facteurs Premiers
 
