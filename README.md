@@ -252,6 +252,9 @@ Vous trouverez d'autres katas qui vous permettront de mieux apprendre la program
 
 http://codingdojo.org/kata/
 
+Dans tous les cas gardez cette citation d'Edsger W. Dijkstra en tête :
+> Program testing can be used to show the presence of bugs, but never to show their absence.
+
 
 ### Si l'IDE n'est pas votre tasse de thé...
 
