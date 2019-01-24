@@ -49,7 +49,7 @@ Après le chargement, vous devriez tomber sur une première fenêtre vous propos
 
 À partir de là vous allez tomber sur la partie de personnalisation de votre installation pour qu'elle corresponde à vos besoins. Sur l'aspect esthétique, choisissez ce qui vous convient le mieux. En ce qui concerne les différents plugins à intégrer, à priori, les options installées par défaut sont suffisantes, donc vous choisirez l'installation par défaut.
 
-À la fin, si vous avez lancer la version IntelliJ IDEA Ultimate, vous allez saisir vos données de connexion pour activer la licence et pour terminer le paramétrage de votre IDE. Pour la version IntelliJ IDEA Community, vous n'avez pas à vous authenthifier et pouvez passer cette étape.
+À la fin, si vous avez lancé la version IntelliJ IDEA Ultimate, vous allez saisir vos données de connexion pour activer la licence et pour terminer le paramétrage de votre IDE. Pour la version IntelliJ IDEA Community, vous n'avez pas à vous authenthifier et pouvez passer cette étape.
 
 **Import du projet dans l'IDE**
 
@@ -61,7 +61,7 @@ Le repository sera celui correspondant à votre TP sur GitHub :
 
 ![](src/main/resources/CloneGitHub.png)
 
-Sur certaines machines, au lancement du projet, il se peut que l'IDE vous demande d'indiquer le SDK à utiliser (groso modo est l'ensemble d'outils logiciels qui permettent de faire tourner des programmes Java). Vous choisirez le SDK 1.8.
+Sur certaines machines, au lancement du projet, il se peut que l'IDE vous demande d'indiquer le SDK à utiliser (grosso modo c'est l'ensemble d'outils logiciels qui permettent de faire tourner des programmes Java). Vous choisirez le SDK 1.8.
 Lorsque vous ouvrez votre projet Java, la fenêtre d'affichage de votre IDE devrait rassembler à quelque chose comme ceci :
 
 ![](src/main/resources/FenetreIDE.png)
@@ -284,4 +284,9 @@ Pour exécuter le programme compilé :
 ```
 ~/POO/TP2$  cd target/
 ~/POO/TP2/target$  java fr.umontpellier.iut.exercice1.App
+```
+Si Maven est installé sur votre machine vous pouvez exécuter les tests en ligne de commande également :
+
+```
+~/POO/TP2$  mvn test
 ```
