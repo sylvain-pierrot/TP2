@@ -61,6 +61,7 @@ Le repository sera celui correspondant à votre TP sur GitHub :
 
 ![](src/main/resources/CloneGitHub.png)
 
+Sur certaines machines, au lancement du projet, il se peut que l'IDE vous demande d'indiquer le SDK à utiliser (groso modo est l'ensemble d'outils logiciels qui permettent de faire tourner des programmes Java). Vous choisirez le SDK 1.8.
 Lorsque vous ouvrez votre projet Java, la fenêtre d'affichage de votre IDE devrait rassembler à quelque chose comme ceci :
 
 ![](src/main/resources/FenetreIDE.png)
