@@ -26,7 +26,7 @@ Contrairement au TP1, ne clonez pas tout de suite vous même ce fork, l'IDE s'en
 
 IntelliJ IDEA possède deux versions, la première dite *'communautaire'* est totalement open source et peut être utilisée 
 gratuitement par n'importe qui et la seconde dite *'ultimate'* qui est plus riche en fonctionnalité et qui n'est pas 
-gratuite pour les individus lambda. Par chance, comme dans le cas de GitHub, en tant qu'étudiant, vous avez la 
+gratuite pour les individus lambda. Les deux versions du logiciels sont présentes sur les machines du département. Par chance, comme dans le cas de GitHub, en tant qu'étudiant, vous avez la 
 possibilité de pouvoir bénéficier d'une licence pour tous les produits JetBrains. Pour bénéficier de cette remise, il 
 vous suffit de remplir [ce formulaire](https://www.jetbrains.com/shop/eform/students).
 
@@ -35,16 +35,21 @@ les conditions d'utilisation et choisir un nom d'utilisateur et un mot de passe.
 informations dans un coin identifié de votre cerveau car c'est grâce à elle que vous pourrez importer votre licence 
 chez vous et dans les salles de TP.
 
-**Lancement de l'IDE**
+**Premier lancement de l'IDE**
 
-Ouvrir 'IntelliJ IDEA' (dans la section 'Programmation'/'Application').
+Sur les postes Linux du département informatique de l'IUT de Montpellier, IntelliJ IDEA Ultimate est installé dans `/opt/idea-IU-183.5153.38/`. Si la version Ultimate (IU) n'est pas disponible, vous pouvez toujours utiliser la version Community installée dans `/opt/idea-IC-181.5281.24/`:
+```
+~/RepertoireCourant$  cd /opt/idea-IU-183.5153.38/bin
+~/opt/idea-IU-183.5153.38/bin$  ./idea.sh
+```
+
 Après le chargement, vous devriez tomber sur une première fenêtre vous proposant d'importer vos paramètres. Vous pouvez laisser sur 'Do not import settings' et valider :
 
 ![](src/main/resources/complete_installation.png)
 
 À partir de là vous allez tomber sur la partie de personnalisation de votre installation pour qu'elle corresponde à vos besoins. Sur l'aspect esthétique, choisissez ce qui vous convient le mieux. En ce qui concerne les différents plugins à intégrer, à priori, les options installées par défaut sont suffisantes, donc vous choisirez l'installation par défaut.
 
-À la fin, vous allez saisir vos données de connexion pour terminer le paramétrage de votre IDE.
+À la fin, si vous avez lancer la version IntelliJ IDEA Ultimate, vous allez saisir vos données de connexion pour activer la licence et pour terminer le paramétrage de votre IDE. Pour la version IntelliJ IDEA Community, vous n'avez pas à vous authenthifier et pouvez passer cette étape.
 
 **Import du projet dans l'IDE**
 
