@@ -207,10 +207,10 @@ On va se fixer une représentation unique des nombres romains avec les principes
 - Pour chacune des 4 étapes ci-dessus, on utilisera le moins de symboles possible
 
 Par exemple :
--`IL` (pour 49) est interdit (I n'est pas autorisé pour décrire les dizaines), et 49 = `XLIX`
--`XCM` est interdit (car que l'on interprete comme `X` `CM` ou `XC` `M`, cela ne respecte pas l'ordre ci-dessus)
--`VX` (pour 5) est interdit, car `V` utilise moins de symboles
--`XCXX` (pour 110) est interdit, car il faut décrire le chiffre des centaines avec `C`,`D`, `M`.
+- `IL` (pour 49) est interdit (I n'est pas autorisé pour décrire les dizaines), et 49 = `XLIX`
+- `XCM` est interdit (car que l'on interprete comme `X` `CM` ou `XC` `M`, cela ne respecte pas l'ordre ci-dessus)
+- `VX` (pour 5) est interdit, car `V` utilise moins de symboles
+- `XCXX` (pour 110) est interdit, car il faut décrire le chiffre des centaines avec `C`,`D`, `M`.
 
 
 Faites très attention pour cet exercice de bien respecter le principe du TDD en ajoutant vraiment tout le temps la quantité minimale de code nécessaire à la validation des tests. Si vous suivez cette règle, il se résout très facilement alors qu'en l'abordant de manière générale, il comporte de nombreux pièges pouvant vous faire perdre un temps précieux.
