@@ -274,7 +274,7 @@ Pour compiler le code source de l'exercice 1 à partir de la racine de votre pro
 ```
 
 L'option `-d target` permet d'indiquer que la destination des fichiers compilés est le répertoire `target/`
-Alternativement, avec l'option `-sourcepath`, il est possible d'indiquer le chemin où le compilateur va chercher
+Également, avec l'option `-sourcepath`, il est possible d'indiquer le chemin où le compilateur va chercher
 l'ensemble du code source à compiler :
 ```
 ~/POO/TP2$  javac -sourcepath src/ -d target src/main/java/fr/umontpellier/iut/exercice1/*.java
@@ -285,7 +285,18 @@ Pour exécuter le programme compilé :
 ~/POO/TP2$  cd target/
 ~/POO/TP2/target$  java fr.umontpellier.iut.exercice1.App
 ```
-Si Maven est installé sur votre machine vous pouvez exécuter les tests en ligne de commande également.
+L'avantage d'utiliser IntelliJ IDEA est qu'à priori vous n'avez pas à installer les divers dépendances, l'outil est _"self-contained"_.
+En revanche, si vous passez par la console, il se peut que vous soyez amenés à installer ou importer divers outils.
+Notamment, pour exécuter les tests unitaires dans un terminal, il faudrait utiliser un exécutable `.jar` correspondant
+à la platforme JUnit et contenant l'ensemble de dépendances nécessaires :
+```
+~/POO/TP2$  java -jar junit-platform-console-standalone-<version>.jar <Options>
+```
+
+La solution ci-dessus peut s'avérer particulièrement pénible lorsque vous avez plusieurs classes de tests,
+dans différents packages. Le plus simple c'est d'utiliser un outil de "build" comme Maven,
+[Gradle](https://fr.wikipedia.org/wiki/Gradle), [Ant](https://fr.wikipedia.org/wiki/Apache_Ant), [make](https://fr.wikipedia.org/wiki/Make) etc. 
+Par exemple, si Maven est installé sur votre machine vous pouvez exécuter les tests en ligne de commande assez facilement.
 Pour cela placez-vous à la racine de votre projet et tapez la commande suivante :
 
 ```
