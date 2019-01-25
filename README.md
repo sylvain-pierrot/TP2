@@ -285,8 +285,12 @@ Pour exécuter le programme compilé :
 ~/POO/TP2$  cd target/
 ~/POO/TP2/target$  java fr.umontpellier.iut.exercice1.App
 ```
-Si Maven est installé sur votre machine vous pouvez exécuter les tests en ligne de commande également :
+Si Maven est installé sur votre machine vous pouvez exécuter les tests en ligne de commande également.
+Pour cela placez-vous à la racine de votre projet et tapez la commande suivante :
 
 ```
 ~/POO/TP2$  mvn test
 ```
+Le résultat obtenu devrait rassembler à quelque chose comme ceci :
+
+![](src/main/resources/mvn_test_exemple.png)
