@@ -7,6 +7,15 @@
 * Le [forum Piazza](https://piazza.com/class/jpv7gf0lltk4kc) de ce cours pour poser vos questions
 * [Email](mailto:petru.valicov@umontpellier.fr) pour une question d'ordre privée concernant le cours.
 
+Avant de démarrer le TP, vérifiez que vous n'avez pas atteint votre quota d'espace de stockage autorisé :
+
+* placez-vous dans votre `$HOME` et utilisez les commandes suivantes :
+    * `du -sh` pour voir combien d'espace vous avez déjà utilisé
+    * `du -sh *` pour voir combien d'espace vous avez déjà utilisé pour chaque fichier (sans fichiers cachés)
+    * `du -sch .[!.]* *` pour voir combien d'espace vous avez déjà utilisé pour chaque fichier, y compris les fichiers cachés
+* Supprimez les fichiers inutiles.
+* Pour évitez des problèmes durant vos TPs d'informatique, vous devriez toujours **garder 300-400 Mo d'espace libre**.
+
 ## TP 2 : Prise en main de l'IDE et travail en mode TDD
 Pendant les TP nous vous conseillons d'utiliser un environnement de développement intégré (IDE en anglais).
 Les avantages sont multiples : le refactoring du code, l'auto-complétion, la suggestion des méthodes/attributs/classes,
@@ -40,7 +49,7 @@ chez vous et dans les salles de TP.
 Sur les postes Linux du département informatique de l'IUT de Montpellier, IntelliJ IDEA Ultimate est installé dans `/opt/idea-IU-183.5153.38/`. Si la version Ultimate (IU) n'est pas disponible, vous pouvez toujours utiliser la version Community installée dans `/opt/idea-IC-181.5281.24/`:
 ```
 ~/RepertoireCourant$  cd /opt/idea-IU-183.5153.38/bin
-~/opt/idea-IU-183.5153.38/bin$  ./idea.sh
+/opt/idea-IU-183.5153.38/bin$  ./idea.sh
 ```
 
 Après le chargement, vous devriez tomber sur une première fenêtre vous proposant d'importer vos paramètres. Vous pouvez laisser sur 'Do not import settings' et valider :
